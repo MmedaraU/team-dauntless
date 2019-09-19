@@ -80,7 +80,7 @@
                             <span style="color:red;"><?php echo $msg;?></span>
                             <?php } ?>
                         <input type="username" placeholder="Username" name="Username" required/>
-                        <input type="password" placeholder="Password" name="Password" required/><i class="far fa-eye pos" id="icon"></i>
+                        <input type="password" placeholder="Password" name="Password" required/>
                         <a href="#">Forgot your password?</a>
                         <button type="submit" name="Submit" value="Login">Sign In</button>
                         <h5 class="signing">Wanna <span class="sign-up">Sign up</span> instead?</h5>
