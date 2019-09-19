@@ -57,6 +57,8 @@
                         <input type="text" placeholder="Name" name="name" required />
                         <input type="email" placeholder="Email" name="email" required/>
                         <input type="password" placeholder="Password" name="password" required/>
+			
+			
                         <button>Sign Up</button>
 
                         <h5 class="signing">Wanna <span class="sign-in">Sign in</span> instead?</h5>
@@ -78,7 +80,7 @@
                             <span style="color:red;"><?php echo $msg;?></span>
                             <?php } ?>
                         <input type="username" placeholder="Username" name="Username" required/>
-                        <input type="password" placeholder="Password" name="Password" required/>
+                        <input type="password" placeholder="Password" name="Password" required/><i class="far fa-eye pos" id="icon"></i>
                         <a href="#">Forgot your password?</a>
                         <button type="submit" name="Submit" value="Login">Sign In</button>
                         <h5 class="signing">Wanna <span class="sign-up">Sign up</span> instead?</h5>
@@ -90,6 +92,7 @@
     </section>
     <footer><h2>Made By Team Dauntless</h2></footer>
     <script src="./assets/js/form.js"></script>
+	
 </body>
 
 </html>
